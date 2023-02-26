@@ -47,6 +47,7 @@ La variable esta declarada pero no esta definida
 ## Documentar codigo o comentar codigo
 
 > /* COMENTARIO DE HUMANO */
+
 > // COMENTAR CODIGO
 
 ~~~
@@ -72,17 +73,14 @@ La variable esta declarada pero no esta definida
 
 # Tipo de datos
 
-> BOOLEAN 
-ESTO SOLO PUEDE RETORNAR
-TREU -> 1
-FALSE -> 0
+> BOOLEAN: ESTO SOLO PUEDE RETORNAR
+> TREU -> 1
+> FALSE -> 0
  
 
-> UNDEFINED
-LA VARIABLE ESTA DECLARADA PERO NO ESTA DEFINIDA
+> UNDEFINED: LA VARIABLE ESTA DECLARADA PERO NO ESTA DEFINIDA
 
-> NULL
-EL ELEMENTO SOLICITADO NO EXISTE
+> NULL: EL ELEMENTO SOLICITADO NO EXISTE
 
 ### typeof 
  ESTO SIRVE PARA RETORNAR EN UN STRING 
