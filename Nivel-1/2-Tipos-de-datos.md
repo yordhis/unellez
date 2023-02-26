@@ -50,7 +50,7 @@
     console.log(number1) // retorna ->  1
     ~~~
 
-ESTO PASA CON LOS TIPOS DE DATOS PRIMITIVOS
+> Esto pasa con los tipo de datos primitivos
 
 #### Datos por referencia
 En el siguiente codigo Vemos que una variable recive un arreglo de datos y despues 
@@ -80,11 +80,11 @@ se asigna a otra variable:
 2. Operadores de comparación
     - ==  NO USAR MUCHO 
     - === RECOMENDADA
-    - != DIFERENTE
+    - !=  DIFERENTE
     - !== DIFERENTE VALOR Y TIPOS DE DATOS
     - <
-    - >
-    - >=
+    - ">"
+    - ">="
     - <=
  
 
@@ -93,18 +93,17 @@ se asigna a otra variable:
     - ! negacion
 
 4. Operadores aritméticos
-
- - +
- - -
- - /
- - % Modulo
- - POS++
- - ++PRE 
- - POS--
- - --PRE
+    - +
+    - -
+    - /
+    - % Modulo
+    - POS++
+    - ++PRE 
+    - POS--
+    - --PRE
 
 5. Operadores ternarios
-este nos permite tomar desiciones de asignacion de valores segun una condición o varias
+Este nos permite tomar desiciones de asignacion de valores segun una condición o varias
  
  - EXPRESION ? VERDADERO : FALSO
  
