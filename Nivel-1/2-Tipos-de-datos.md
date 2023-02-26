@@ -103,8 +103,8 @@ se asigna a otra variable:
     - --PRE
 
 5. Operadores ternarios
-Este nos permite tomar desiciones de asignacion de valores segun una condición o varias
- 
+
+ - Este nos permite tomar desiciones de asignacion de valores segun una condición o varias 
  - EXPRESION ? VERDADERO : FALSO
  
     ~~~
