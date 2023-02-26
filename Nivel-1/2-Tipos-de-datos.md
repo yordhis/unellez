@@ -37,15 +37,15 @@
     ~~~
 
 #### Datos por valor
-    ~~~
-    let number1 = 1, number2 = number1
-    ~~~
 
-EN ESTE CASO ESTA APUNTADO AL VALOR
-ES DECIR QUE SI CAMBIO EL VALOR DE 
-number2 NO AFECTA A number1
     ~~~
+    // En la siguiente linea se asignan los valores
+    let number1 = 1, number2 = number1
+
+    // Despues a number2 se le asigna un string 
     number2 = 'hola'
+
+    // Al mostrar los datos veremos que number1 no fue afectado por el cambio de number2
     console.log(number2) // retorna -> 'hola'
     console.log(number1) // retorna ->  1
     ~~~
