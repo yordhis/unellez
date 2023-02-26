@@ -93,8 +93,8 @@ se asigna a otra variable:
     - ! negacion
 
 4. Operadores aritméticos
-    - +
-    - -
+    - "+"
+    - "-"
     - /
     - % Modulo
     - POS++
