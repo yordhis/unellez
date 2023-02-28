@@ -21,7 +21,8 @@
  - math.random() 
  
 Ejemplo:
-	~~~
+
+~~~
 	Math.floor(20.7) //retorna -> 20 redondea hacia abajo 
 	Math.ceil(20.1) //retorna -> 21 redondea hacia arriba 
 	Math.round(20.1) //retorna -> 20 redondea hacia abajo  
@@ -29,7 +30,7 @@ Ejemplo:
 	Math.random() //retorna -> 0.5546545646
 	Math.random() *10 //retorna -> 5.5546545646
 	Math.ceil(Math.random() * 10) //retorna -> 1 o X numero entero
-	~~~
+~~~
 
 # Tratamiento de String o Cadena de Texto
 
