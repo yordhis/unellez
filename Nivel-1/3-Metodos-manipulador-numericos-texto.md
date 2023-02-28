@@ -44,15 +44,15 @@ Ejemplo:
 		- .toLoweCase() -> Convertir MAYUSCULAS a minusculas
 
 #### Ejemplo:
-	~~~
-		let answer = prompt('¿Cual es la capital de venezuela?').toUpperCase().trim()
+~~~
+	let answer = prompt('¿Cual es la capital de venezuela?').toUpperCase().trim()
 
-		let message = answer === 'CARACAS'
-					? '¡Correcto!'
-					: '¡Te equivocastes! la respuesta es Caracas'
+	let message = answer === 'CARACAS'
+				? '¡Correcto!'
+				: '¡Te equivocastes! la respuesta es Caracas'
 
-		alert(message)
-	~~~
+	alert(message)
+~~~
 
 
 ### Encontrar caracteres en las cadenas de texto
@@ -80,7 +80,7 @@ Ejemplo:
 	- sirve para validar urls y demas cosas
 
 #### Ejemplo:
-	~~~
+~~~
 	let profesor = "Debora"
 
 	profesor.indexOf('a', 0) // retorna la posicion [5]
@@ -92,7 +92,7 @@ Ejemplo:
 	'https://ed.team/cursos'.starsWith('https://ed.team') // retorna true
 
 	'https://ed.team/cursos'.endsWith('cursos') // retorna true
-	~~~
+~~~
 
 # MANIPULAR STRING O CADENAS DE TEXTO
 En la siguiente lista estan unos de los metodos o funciones  nativas de ES6
@@ -115,7 +115,7 @@ En la siguiente lista estan unos de los metodos o funciones  nativas de ES6
 
 
 #### Ejemplo
-	~~~
+~~~
 	// REPLACE
 		'Yordhis'.replace('Yordhis','Yordhis Osuna') // retorna string 'Yordhis Osuna'
 
@@ -151,7 +151,7 @@ En la siguiente lista estan unos de los metodos o funciones  nativas de ES6
 		'hola mundo'.slice(-5, -2) // retorna string 'mun'
 
 		'hola mundo'.slice(-5, -1) // retorna string 'mund'
-	~~~
+~~~
 
 
 
