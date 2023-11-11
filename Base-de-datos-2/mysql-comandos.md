@@ -2,10 +2,12 @@
 # Base de datos
 ## Comandos de la consola de mySQL
 
-Para porde usar la consolo de com,ando para administrar la DB 
+Para porde usar la consola de comando para administrar la DB 
 se configura las variables de entorno del sistema en caso de ser windows 
 o ejecuta esta direccion.
+~~~
   ---> C:\xampp\mysql\bin>mysql <---
+~~~
 
 # Nota: 
   1- La terminal de MySQL no es sencible 
@@ -61,11 +63,14 @@ CREATE DATABASE db_name;
 
 ### Para usar o accesar a una base de datos
 ~~~
+// usamos la expresión regular USE seguidamente del nombre de base de datos (db_name)
 USE db_name;
+
 ~~~
 
 ### Mostrar tablas de la DB seleccionada
 ~~~
+// Este comando muestra todas las tablas que contiene la DB en uso.
 SHOW TABLES;
 ~~~
 
@@ -82,8 +87,9 @@ CREATE TABLE productos(
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ~~~
 
-### Ver los talles de una tabla
+### Ver los detalles de una tabla
 ~~~
+// Esto muestra la estructura de datos de la tabla deseada
 DESCRIBE table_name;
 ~~~
 
@@ -92,19 +98,23 @@ DESCRIBE table_name;
 DROP TABLE table_name;
 ~~~
 
-### Insertar REGISTROS en un tabla
+### Insertar REGISTROS en una tabla
 ~~~
 INSERT INTO productos VALUES (NULL, 'Camiseta HTML', 'L', '1000');
 ~~~
 
 ### Mostrar registros de una tabla
 ~~~
+// Selección general
 SELECT * FROM productos;
+
+// Seleccion espesífica 
 SELECT nombre, precio FROM productos;
 ~~~
 
 ### Mostrar con condiciones
 ~~~
+// Seleccioná todo los productos que su precio sobre pase los 1000
 SELECT nombre, precio FROM productos WHERE precio = 1000;
 ~~~
 
