@@ -132,9 +132,9 @@ SELECT nombre, precio FROM productos ORDER BY precio DESC;
 
 ### Ordenar con LIKE y condiciones
 ##### Filtro para las buquedas usuado LIKE y espesíficacon con el [%]
-> %S a la izquierda: quiere decir que buscara todas las palabras que terminan en [S]
-> S% a la derecha: quiere decir que buscara todas las palabras que terminan en [S]
-> %S% a ambos lados: quiere decir que buscara todas las palabra que tengan [S]
+* %S a la izquierda: quiere decir que buscara todas las palabras que terminan en [S]
+* S% a la derecha: quiere decir que buscara todas las palabras que terminan en [S]
+* %S% a ambos lados: quiere decir que buscara todas las palabra que tengan [S]
 ~~~
 SELECT nombre, precio FROM productos WHERE nombre LIKE '%S%' AND precio > 1500;
 ~~~
